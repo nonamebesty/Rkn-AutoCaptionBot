@@ -9,9 +9,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Rkn_Bots(object):
     # Rkn client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = os.environ.get("API_ID", "23171051")
+    API_HASH = os.environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7343805166:AAHtmz0TxF0mq5YmJGnEEFYSDc2GPH9vgyA")
 
     #start_pic
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
@@ -20,11 +20,11 @@ class Rkn_Bots(object):
     # wes response configuration
     BOT_UPTIME = time.time()
     PORT = int(os.environ.get("PORT", "8080"))
-    FORCE_SUB = os.environ.get("FORCE_SUB", "") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "-1002217710548") 
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "AutoCaption_V05_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "Lucifer")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
