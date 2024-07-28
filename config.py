@@ -9,12 +9,12 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Rkn_Bots(object):
     # Rkn client config
-    API_ID = os.environ.get("API_ID", "23171051")
-    API_HASH = os.environ.get("API_HASH", "10331d5d712364f57ffdd23417f4513c")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7161447840:AAHijbJ3wANZcgdElBe2kkxYOsOaeS7wFUs")
+    API_ID = os.environ.get("API_ID", "27696177")
+    API_HASH = os.environ.get("API_HASH", "0c44906a4feff3b947db76dfa7c57d88")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7193901839:AAF1WaZCK3EwtKFmWaKPnD7yca0gJIeNhC4")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/21a8e96b45cd6ac4d3da6.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/a5545df4f5ce6ffaeaf98.jpg")
 
 
     # wes response configuration
@@ -23,12 +23,13 @@ class Rkn_Bots(object):
     FORCE_SUB = os.environ.get("FORCE_SUB", "-1001868502293") 
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Lucifer")     
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tmr624062:2fS3ifhHtKRaLWQZ@cluster0.3gpzrlg.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME", "techvjautobot")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tabolo8539:0evqZDV4fC5fD17c@cluster0.cw8zxus.mongodb.net/?retryWrites=true&w=majority")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b><a href='https://t.me/TMR_update_channel'>{file_name} Telegram : @TMR_DEVELOPER\n\nForward the file before Downloading.</a></b>",
+                             "<b>{file_name} \n\n⚡️𝐉𝐎𝐈𝐍 𝐁𝐀𝐂𝐊𝐔𝐏 - @Techshyam007
+⚡️𝐉𝐎𝐈𝐍 𝐓𝐞𝐜𝐡𝐬𝐡𝐲𝐚𝐦 - @techshyaam</b>",
     )
 
     #sticker Id
