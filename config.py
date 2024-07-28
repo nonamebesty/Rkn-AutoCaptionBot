@@ -28,8 +28,7 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b>{file_name} \n\n⚡️𝐉𝐎𝐈𝐍 𝐁𝐀𝐂𝐊𝐔𝐏 - @Techshyam007
-⚡️𝐉𝐎𝐈𝐍 𝐓𝐞𝐜𝐡𝐬𝐡𝐲𝐚𝐦 - @techshyaam</b>",
+                             "<b>{file_name}\n\n⚡️𝐉𝐎𝐈𝐍 𝐁𝐀𝐂𝐊𝐔𝐏 - @Techshyam007\n\n⚡️𝐉𝐎𝐈𝐍 𝐓𝐞𝐜𝐡𝐬𝐡𝐲𝐚𝐦 - @techshyaam</b>",
     )
 
     #sticker Id
