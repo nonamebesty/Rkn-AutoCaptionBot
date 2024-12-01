@@ -14,7 +14,7 @@ class Rkn_Bots(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8074122181:AAF_OZr4Ud3K-KL2JXTmgp8WqRXSIMMcMFg")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/a5545df4f5ce6ffaeaf98.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/YOZ.jpg")
 
 
     # wes response configuration
@@ -32,7 +32,7 @@ class Rkn_Bots(object):
     )
 
     #sticker Id
-    STICKER_ID = os.environ.get("STICKER_ID", "CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA")
+    STICKER_ID = os.environ.get("STICKER_ID", "CAACAgUAAxkBAAEE_7BnTLgJ5tXpO8uIQS2tqAhSkiIfXwAC_QADdKohVZYbzDX-1NJ_HgQ")
 
     #admin id
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '880087645').split()]
