@@ -28,7 +28,7 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b>{file_name}\n\n⚡️Main Channel Join @ThammuTv</b>",
+                             "<b>{file_name}\n\nMain Channel Join @ThammuTv</b>",
     )
 
     #sticker Id
