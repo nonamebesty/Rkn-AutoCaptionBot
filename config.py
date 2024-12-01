@@ -9,9 +9,9 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Rkn_Bots(object):
     # Rkn client config
-    API_ID = os.environ.get("API_ID", "27696177")
-    API_HASH = os.environ.get("API_HASH", "0c44906a4feff3b947db76dfa7c57d88")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7193901839:AAF1WaZCK3EwtKFmWaKPnD7yca0gJIeNhC4")
+    API_ID = os.environ.get("API_ID", "1923471")
+    API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     #start_pic
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/a5545df4f5ce6ffaeaf98.jpg")
@@ -20,11 +20,11 @@ class Rkn_Bots(object):
     # wes response configuration
     BOT_UPTIME = time.time()
     PORT = int(os.environ.get("PORT", "8080"))
-    FORCE_SUB = os.environ.get("FORCE_SUB", "-1001937292511") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "0") 
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "techvjautobot")     
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://tabolo8539:0evqZDV4fC5fD17c@cluster0.cw8zxus.mongodb.net/?retryWrites=true&w=majority")
+    DB_NAME = os.environ.get("DB_NAME", "autocaption")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
@@ -35,7 +35,7 @@ class Rkn_Bots(object):
     STICKER_ID = os.environ.get("STICKER_ID", "CAACAgIAAxkBAAKjYmZkRgOAtKRZ1d8LHnLAKUtus9noAAIjAAMoD2oUJ1El54wgpAY1BA")
 
     #admin id
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6987799874').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '880087645').split()]
     
 
 # Rkn Developer 
