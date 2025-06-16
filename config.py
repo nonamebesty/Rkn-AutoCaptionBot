@@ -9,12 +9,12 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Rkn_Bots(object):
     # Rkn client config
-    API_ID = os.environ.get("API_ID", "1923471")
-    API_HASH = os.environ.get("API_HASH", "fcdc178451cd234e63faefd38895c991")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = os.environ.get("API_ID", "1")
+    API_HASH = os.environ.get("API_HASH", "2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "3")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/NHo.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "4")
 
 
     # wes response configuration
@@ -24,7 +24,7 @@ class Rkn_Bots(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "autocaption")     
-    DB_URL = os.environ.get("DB_URL", "mongodb+srv://leecher:leecher@cluster0.606mkpi.mongodb.net/?retryWrites=true&w=majority")
+    DB_URL = os.environ.get("DB_URL", "5")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
