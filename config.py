@@ -9,12 +9,12 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Rkn_Bots(object):
     # Rkn client config
-    API_ID = os.environ.get("API_ID", "1")
-    API_HASH = os.environ.get("API_HASH", "2")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "3")
+    API_ID = os.environ.get("API_ID", "")
+    API_HASH = os.environ.get("API_HASH", "")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "4")
+    RKN_PIC = os.environ.get("RKN_PIC", "")
 
 
     # wes response configuration
@@ -24,7 +24,7 @@ class Rkn_Bots(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "autocaption")     
-    DB_URL = os.environ.get("DB_URL", "5")
+    DB_URL = os.environ.get("DB_URL", "")
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
