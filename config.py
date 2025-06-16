@@ -20,7 +20,7 @@ class Rkn_Bots(object):
     # wes response configuration
     BOT_UPTIME = time.time()
     PORT = int(os.environ.get("PORT", "8080"))
-    FORCE_SUB = os.environ.get("FORCE_SUB", "-1001937292511") 
+    FORCE_SUB = os.environ.get("FORCE_SUB", "") 
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "techvjautobot")     
