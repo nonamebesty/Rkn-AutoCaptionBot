@@ -14,7 +14,7 @@ class Rkn_Bots(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "8074122181:AAF_OZr4Ud3K-KL2JXTmgp8WqRXSIMMcMFg")
 
     #start_pic
-    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/YOZ.jpg")
+    RKN_PIC = os.environ.get("RKN_PIC", "https://envs.sh/NHo.jpg")
 
 
     # wes response configuration
@@ -28,7 +28,7 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b>{file_name}\n\nMain Channel Join @ThammuTv</b>",
+                             "<b>{file_name}\n\nMain Movie Searching Group Join @Moviekoodu1</b>",
     )
 
     #sticker Id
