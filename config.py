@@ -28,7 +28,7 @@ class Rkn_Bots(object):
 
     #caption
     DEF_CAP = os.environ.get("DEF_CAP",
-                             "<b>{file_name}\n\nMain Movie Searching Group Join @Moviekoodu1</b>",
+                             "<b>{file_name}\n\nMain Movie Searching Group Join @Moviekoodu1\n\nOther Zee Tamil serials Join \nhttps://t.me/+VdExpPLNSLVlMTdl</b>",
     )
 
     #sticker Id
