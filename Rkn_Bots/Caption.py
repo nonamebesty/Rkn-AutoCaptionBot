@@ -113,8 +113,10 @@ async def auto_edit_caption(bot, message):
                 file_name = obj.file_name
                 file_name = (
                     re.sub(r"@\w+\s*", "", file_name)
-                    .replace("_", " ")
-                    .replace(".", " ")
+                    .replace("_", "_")
+                    .replace(".", "_")
+                    .replace(" ", "_")
+                    .replace("Filename: ", "")
                 )
                 cap_dets = await chnl_ids.find_one({"chnl_id": chnl_id})
                 try:
